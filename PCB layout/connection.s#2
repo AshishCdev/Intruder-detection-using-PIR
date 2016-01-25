@@ -14518,7 +14518,6 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-157.48" y="15.24" size="1.778" layer="91">GSM MODULE</text>
 </plain>
 <instances>
 <instance part="IC2" gate="A1" x="-292.1" y="104.14"/>

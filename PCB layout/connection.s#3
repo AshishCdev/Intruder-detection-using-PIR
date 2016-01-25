@@ -14518,7 +14518,6 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-157.48" y="15.24" size="1.778" layer="91">GSM MODULE</text>
 </plain>
 <instances>
 <instance part="IC2" gate="A1" x="-292.1" y="104.14"/>
@@ -14566,8 +14565,8 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <instance part="SV1" gate="G$1" x="-139.7" y="93.98" rot="R180"/>
 <instance part="P+6" gate="VCC" x="-231.14" y="91.44"/>
 <instance part="SV2" gate="1" x="-254" y="53.34" rot="R90"/>
-<instance part="X2" gate="-1" x="-149.86" y="22.86"/>
-<instance part="X2" gate="-2" x="-152.4" y="20.32"/>
+<instance part="X2" gate="-1" x="-147.32" y="43.18"/>
+<instance part="X2" gate="-2" x="-147.32" y="38.1"/>
 <instance part="X3" gate="-1" x="-279.4" y="48.26"/>
 <instance part="X3" gate="-2" x="-320.04" y="35.56" rot="R180"/>
 <instance part="J1" gate="G$1" x="-317.5" y="63.5"/>
@@ -14993,15 +14992,15 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <segment>
 <pinref part="X2" gate="-1" pin="S"/>
 <pinref part="IC1" gate="G$1" pin="(TXD)PD1"/>
-<wire x1="-152.4" y1="22.86" x2="-154.94" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-154.94" y1="40.64" x2="-157.48" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="43.18" x2="-154.94" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-154.94" y1="43.18" x2="-157.48" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="X2" gate="-2" pin="S"/>
 <pinref part="IC1" gate="G$1" pin="(RXD)PD0"/>
-<wire x1="-154.94" y1="20.32" x2="-157.48" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="38.1" x2="-157.48" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RST" class="0">
